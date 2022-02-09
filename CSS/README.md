@@ -25,7 +25,7 @@
     
 **important:** ***A CSS rule looks like this:-***
 <br/>&nbsp; &nbsp; &nbsp; ```selector {property: value; ...}```
-<br/>**note:** the value here is different from ``<element attribute= “value”> </element>``
+<br/>**note:** _the value here is different from ``<element attribute= “value”> </element>``_
   </p>
 </details>
   
