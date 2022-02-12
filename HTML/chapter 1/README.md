@@ -4,7 +4,7 @@
 <br/>
 
 # text formatting :
-<img src=https://user-images.githubusercontent.com/63545175/153231999-cde0c358-51f0-4123-9b48-c0368093c9e3.png width=850>
+<img src=text_formatting.png width=850>
 
 <br/>
 
