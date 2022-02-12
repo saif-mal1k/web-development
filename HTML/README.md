@@ -115,7 +115,7 @@ _elements are defined using tags._
 ![Screenshot (497)](https://user-images.githubusercontent.com/63545175/152874165-81b07ea5-57fd-4f7a-9c1d-784437ec0f57.png)
 <table>
 <tr>
-<td> <img src=https://user-images.githubusercontent.com/63545175/152875163-ffbb5fdd-5aed-4463-8324-b037c5910c53.png>
+<td width=450> <img src=https://user-images.githubusercontent.com/63545175/152875163-ffbb5fdd-5aed-4463-8324-b037c5910c53.png>
 </td>
 <td>
 
