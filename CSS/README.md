@@ -74,6 +74,7 @@ using a link element (to reference to your external CSS file) in the head of you
 
 -	often, Using internal and inline CSS leads to bad code, since structure and style are not seperated and after some time they are hard to manage. This is why external CSS is the standard in web-development.
 - There is no limit on how many stylesheets you can include. Simply add as many <link /> tags as you wish. Of course, online sources are also possible. However, too many online sources may slow down your app.
+- you can use _Inline CSS_ for debugging, _Internal CSS_ for certain properties to be applied to a single page, all that while using _External CSS._
 
 </p>
 </details>
