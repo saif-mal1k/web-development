@@ -30,13 +30,13 @@
 <td>
   
 ```HTML
-  <a href="https://www.google.com" title="secret msg"> 💡 tip </a>
+  <a href="https://www.google.com" title="secret msg"> Hover Over </a>
 ```
 </td>
 </tr>
 <tr>
 <td> <b> output: </b> 
-<br/> &nbsp; <a href="https://www.google.com" title="secret msg"> 💡 tip </a> 
+<br/> &nbsp; <a href="https://www.google.com" title="secret msg"> Hover Over </a> 
 </tr>
 </table>  
 
