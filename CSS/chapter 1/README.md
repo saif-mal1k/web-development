@@ -76,4 +76,68 @@ the last rules being interpreted will result in final style .
 
 <br/>
  
+<br/>
+
 ***Besides the cascading order, there is another main reason why an HTML element’s style might not look or behave like you intended.***
+
+<br/>
+
+## INHERITANCE of properties from Parent element by Child elements in HTML 
+In case of nested elements inside HTML, 
+***There are two kinds of style “properties”:*** 
+- those that are, always inherited (_they have values inherited from parent element)._ 
+- and those that are, not inherited by default, _and have initial (default values)._
+
+<details>
+<summary><b><em> example: </em></b></summary>
+<p> 
+
+<div align="center">
+<img width="850" src="../images/inheritance-css.png" alt="example of inheritance">
+</div>
+ 
+**note:** Here, the color property as well as the font-size property are inherited automatically, whereas the border property is not inherited.
+</p> 
+</details>
+
+<details>
+<summary>
+ 💡 <b><em> tip: </b></em>
+</summary>
+<p>
+
+In many cases you have to find out yourself what properties are inherited and which not. But as a rule of thumb, most text- and font-related properties are inherited and everything size- and positioning-related is not. 
+<br/>You can take a look at <a href="https://www.w3.org/TR/CSS21/propidx.html" title="W3 school"> _this_ </a> slightly outdated list of properties and their inheritance status. 
+</p>
+</details>
+
+<br/>
+
+### Controlling Inheritance
+***also, you can manually overwrite inherited properties or force inheritance.***
+
+#### Inherit
+Child element inherit style properties from Parent element.
+**Ex:**
+```HTML
+<div style= “color: blue;”>
+        <p style= “color: inherit; ”> HELLO! </p>
+</div> 
+```
+
+#### Initial
+Child element use its default value for the property. “remember they are set by browser”
+**Ex:**
+```HTML
+<div style= “color: blue;”>
+        <p style= “color: initial; ”> HELLO! </p>
+</div>
+```
+
+#### Unset
+The unset  CSS keyword resets a property to its inherited value if the property naturally inherits from its parent, and to its initial value if not.
+
+
+
+
+
