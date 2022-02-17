@@ -88,17 +88,12 @@ In case of nested elements inside HTML,
 - those that are, always inherited (_they have values inherited from parent element)._ 
 - and those that are, not inherited by default, _and have initial (default values)._
 
-<details>
-<summary><b><em> example: </em></b></summary>
-<p> 
-
+<b><em> example: </em></b>
 <div align="center">
 <img width="850" src="../images/inheritance-css.png" alt="example of inheritance">
 </div>
  
 **note:** Here, the color property as well as the font-size property are inherited automatically, whereas the border property is not inherited.
-</p> 
-</details>
 
 <details>
 <summary>
