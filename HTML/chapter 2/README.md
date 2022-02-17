@@ -40,5 +40,67 @@
 </tr>
 </table>  
 
+<br/>
+
+
+## related link vs absolute link?
+
+
+<br/>
+
+## Internal linking to other pages in the same site:
+<table>
+<tr>
+<td width="300" align="center">
+  
+**Moving into the folders** 
+</td>
+<td width="300" align="center">
+  
+**Moving out of the folders**  
+</td>
+</tr>
+<tr>
+<td>
+  
+</td>
+<td>
+
+``../`` _used to go outside a folder._
+``../../`` _used to go two folders back._
+</td>
+</tr>
+</table>
+
+**tip:** use attribute target = ``“_self”``  to make it open in same frame.
+
+<br/>
+
+## External linking to other websites:
+```html
+<a href=“https://link”  target=“_blank” > 	      
+  
+<!-- don’t forget to include full link with https -->
+```
+**tip:** use attribute target = ``“_blank”``  to make it open in new tab.
+
+<br/>
+  
+## linking to the sections of a document or sections of same page:
+```html
+<a href= “#section2”> goto section 2</a>		
+<section id= “section2”>
+	lorem ipsum gutyt saukg aruvz ufszbu sryjncs ...
+</section>
+
+<!-- used as fragment identifiers as it adds #sectionname in url -->
+```
+
+
+
+
+
+
+
 
   
