@@ -1,6 +1,9 @@
-Que: How to add JavaScript to your html file ?
-internal JavaScript:
-<head><! –– inside head ––>		
+# ways to add JavaScript to your html file 
+
+## internal JavaScript:
+```html
+<head>
+    <! –– inside head ––>		
     <script language="JavaScript" type="text/JavaScript">
             // JavaScript code
     </script>
@@ -12,9 +15,14 @@ internal JavaScript:
 		/* JavaScript code */
     </script>
 </body>
+```
 
-external JavaScript:
+<br>
+
+## external JavaScript:
+```html
 <head>
     <script src="script.js" language="JavaScript" type="text/javaScript">
     </script>
 </head>
+```
