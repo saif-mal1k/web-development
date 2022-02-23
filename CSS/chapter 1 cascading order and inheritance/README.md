@@ -113,7 +113,6 @@ In many cases you have to find out yourself what properties are inherited and wh
 
 #### Inherit
 Child element inherit style properties from Parent element.
-**Ex:**
 ```HTML
 <div style= “color: blue;”>
         <p style= “color: inherit; ”> HELLO! </p>
@@ -122,7 +121,6 @@ Child element inherit style properties from Parent element.
 
 #### Initial
 Child element use its default value for the property. “remember they are set by browser”
-**Ex:**
 ```HTML
 <div style= “color: blue;”>
         <p style= “color: initial; ”> HELLO! </p>
@@ -131,6 +129,45 @@ Child element use its default value for the property. “remember they are set b
 
 #### Unset
 The unset  CSS keyword resets a property to its inherited value if the property naturally inherits from its parent, and to its initial value if not.
+
+
+<br/>
+
+## Specificity  and !important  keyword 
+### what is specificity ?
+_If there are two or more conflicting CSS rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out.
+<br/>Think of specificity as a score/rank that determines which style declarations are ultimately applied to an element._
+
+### Specificity Hierarchy
+_There are four categories which define the specificity level of a selector:_
+- **Inline styles** - ``Example: <h1 style="color: #ffffff;">.``
+- **IDs** - An ID is a unique identifier for the page elements, such as #navbar.
+- **Classes, attributes and pseudo-classes** - This category includes .classes, [attributes] and pseudo-classes such as :hover, :focus etc.
+- **Elements and pseudo-elements** - This category includes element names and pseudo-elements, such as h1, div, :before and :after.
+
+**note:** *The universal selector ``(*)`` has low specificity, while ID selectors are highly specific! , learn to calculate specificity here.*
+ 
+### ***examples*** :
+<div align="center">
+<img src="../images/specificity examples.png" alt="examples" width="650"> 
+</div>
+
+<br/>
+
+### **``!important`` Keyword**
+- “this keyword increases the specificity of a property to infinity”. 
+- technically it overrules every other CSS rule Present for the same property.
+
+<table align="center">
+<tr>
+<td>
+<img src="../images/important keyword in css rule.png" alt="example" width="900">
+</td>
+</tr>
+
+
+<br/>
+
 
 
 
