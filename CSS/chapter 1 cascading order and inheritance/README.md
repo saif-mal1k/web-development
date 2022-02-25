@@ -133,6 +133,8 @@ The unset  CSS keyword resets a property to its inherited value if the property 
 
 <br/>
 
+---
+
 ## Specificity  and !important  keyword 
 ### what is specificity ?
 _If there are two or more conflicting CSS rules that point to the same element, the browser follows some rules to determine which one is most specific and therefore wins out.
@@ -164,12 +166,137 @@ _There are four categories which define the specificity level of a selector:_
 <img src="../images/important keyword in css rule.png" alt="example" width="900">
 </td>
 </tr>
-
+</table>
 
 <br/>
 
+---
 
+## Nesting CSS Selectors
+**For addressing the children of an element** you have to use a CSS rule like this:
+```CSS
+ parent-selector child-selector { property: value; ...} 
+```
+**Note:** _the parent selector and child selector are **separated by a simple whitespace.**_
+<br/> _This combination of parent-selector and child selector selects all elements that are descendant’s “childrens” of the specified element “parent element”. and hence also known as ***descendent selector***._
 
+<table>
+<tr>
+<td>
+ 
+**Inside CSS**
+</td>
+<td>
+ 
+**Inside HTML Body**
+</td>
+<td>
+ 
+**Output**
+</td>
+</tr>
+<tr>
+<td>
+ 
+```css
+ div p {
+   color: red;
+ } /* more specific */
+ 
+ p {
+   text-transform: uppercase;
+ }
+```
+</td>
+<td>
+ 
+```html
+ <div>
+        <p>Paragraph inside a division.
+        </p>
+ </div>
+ <p>Paragraph outside a division.
+ </p>
+```
+</td>
+<td>
+ 
+<a href="#"><img src="../images/nesting css selectors example 1.png" alt="nesting css selectors example 1.png"></a>
+</td>
+</tr>
+</table>
 
+the **asterisk (*)**. When used as child selector, It will address all elements inside the parent selector. This will also happen when the asterisk is followed by another child selector.
 
+<table>
+<tr>
+<td>
+ 
+**Inside CSS**
+</td>
+<td>
+ 
+**Inside HTML Body**
+</td>
+<td>
+ 
+**Output**
+</td>
+</tr>
+<tr>
+<td>
+ 
+```css
+ section {
+   background-color: lawngreen;
+ }
+ section * {
+   background-color: orange ;
+ }
+ section * span {
+   background-color: lightblue;
+ }
+```
+</td>
+<td>
+ 
+```html
+ <section>
+        <div>
+     	 <p>	
+                       <span>Headline</span>
+     	 </p>
+     	 <span>Author</span>
+       </div>
+ <span>Date</span>
+ </section>
+ <span>Commercial</span>
+```
+</td>
+<td>
+ 
+<a href="#"><img src="../images/nesting css selectors example 2.png" alt="nesting css selectors example 2.png"></a>
+</td>
+</tr>
+</table>
+
+💡 **tip:** Nesting of CSS selectors can help to set the style more precisely and dynamically. However, ***to apply this technique efficiently, it is crucial to have a well-structured HTML code.*** Sometimes, this can mean that you must add an element that is not absolutely necessary for the visual appearance, but is needed to select or position another related element. these elements are called ***non-semantic elements*** ``ex: <span>, <div>.``
+ 
+<details>
+ <summary><b><em> note: If it comes to nesting of classes you have to be careful with the blank space.  </em></b></summary>
+<p>
+ 
+**``div .my-class``** has a space and selects all elements with the class “my-class” that are descendants of division element.
+<br/>Whereas an <b>ex: ``div.my-class``</b> has no space between element and class selector and therefore addresses all division elements having the class “my-class”. 
+<br/>**note:** _these selectors with no space are also called **“Elements with class selector”**._
+
+``-----------------------``
+
+<br/>
+</p>
+</details>
+
+**important note:** ``#id div{ }`` “doesn’t mean element with this id and div inside this id”, “it means div elements inside the element with this id” same as ***parent-selector child-selector { }*** “means these child elements inside this parent element”.
+
+***tip:*** **now it must be easier to understand that #id.class{ } “without space” is more specific than #id .class{ } “with space” .**
 
