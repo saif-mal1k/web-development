@@ -1,6 +1,6 @@
 ## Frame tag:
 <div align="center">
- <img src="../images/frames.png" alt="example for frames">
+<a href="#"><img src="../images/frames.png" alt="example for frames"></a>
 </div>
  
 <br/>**note:** frame element has attribute ``name = “ ”`` that allows us to name the frame. 
