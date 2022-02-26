@@ -1,6 +1,6 @@
 # Table element
 
-<a href="#"><img src="../images/table element structure(100 × 59.4 cm).png" alt="html table structure" width="900px"></a>
+<a href="#"><img src="../images/table element structure.png" alt="html table structure" width="900px"></a>
 
 💡 **tip:** <b>``we must use rowspan or colspan attributes only inside <td>.``</b>
 
