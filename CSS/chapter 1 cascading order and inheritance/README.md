@@ -90,7 +90,7 @@ In case of nested elements inside HTML,
 
 <b><em> example: </em></b>
 <div align="center">
-<img width="850" src="../images/inheritance-css.png" alt="example of inheritance">
+<a href="#"><img width="850" src="../images/inheritance-css.png" alt="example of inheritance"></a>
 </div>
  
 **note:** Here, the color property as well as the font-size property are inherited automatically, whereas the border property is not inherited.
@@ -151,7 +151,7 @@ _There are four categories which define the specificity level of a selector:_
  
 ### ***examples*** :
 <div align="center">
-<img src="../images/specificity examples.png" alt="examples" width="650"> 
+ <a href="#"><img src="../images/specificity examples.png" alt="examples" width="650"></a>
 </div>
 
 <br/>
@@ -163,7 +163,7 @@ _There are four categories which define the specificity level of a selector:_
 <table align="center">
 <tr>
 <td>
-<img src="../images/important keyword in css rule.png" alt="example" width="900">
+<a href="#"><img src="../images/important keyword in css rule.png" alt="example" width="900"></a>
 </td>
 </tr>
 </table>
@@ -292,11 +292,12 @@ the **asterisk (*)**. When used as child selector, It will address all elements 
 
 ``-----------------------``
 
-<br/>
 </p>
 </details>
 
-**important note:** ``#id div{ }`` “doesn’t mean element with this id and div inside this id”, “it means div elements inside the element with this id” same as ***parent-selector child-selector { }*** “means these child elements inside this parent element”.
+<br/>
+
+📝 **important note:** ``#id div{ }`` “doesn’t mean element with this id and div inside this id”, “it means div elements inside the element with this id” same as ***parent-selector child-selector { }*** “means these child elements inside this parent element”.
 
 ***tip:*** **now it must be easier to understand that #id.class{ } “without space” is more specific than #id .class{ } “with space” .**
 
