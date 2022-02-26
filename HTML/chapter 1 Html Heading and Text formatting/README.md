@@ -4,7 +4,7 @@
 <br/>
 
 # text formatting :
-<img src=text_formatting.png width=850>
+<a href="#"><img src=text_formatting.png width=850></a>
 
 <br/>
 
