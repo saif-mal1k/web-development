@@ -46,3 +46,19 @@
 ```html
 <script src="script.js" language="JavaScript" type="text/javaScript" defer></script>
 ```
+
+</p>
+
+<details>
+	<summary> <b><em>summary:</em></b> </summary>
+<p>
+
+- **async** and **defer** both instruct the browser to download the script(s) in a separate thread, while the rest of the page (the DOM, etc.) is downloading, so the page loading is not blocked by the scripts.
+
+- If your scripts should be run immediately and they don't have any dependencies, then use ***``async``***.
+
+- If your scripts need to wait for parsing and depend on other scripts and/or the DOM being in place, load them using ***``defer``*** and put their corresponding <script> elements in the order you want the browser to execute them.
+</p>
+</details>
+	
+</details>
