@@ -26,7 +26,7 @@
 <br/>
 
 ## Folder Structure of a Web-development Project
-................
+<!-- add image here -->
 
 
 
