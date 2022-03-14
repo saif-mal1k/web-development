@@ -10,7 +10,8 @@
 </br>
 
 # how to implement responsive design
-- use vw, % units. 
+- flexbox, grid layout, flexible grid.
+- flexible media(images...) (use vw, % units). 
 - use media queries to address breakpoints.
 
 Tip: when developing website, try to design for all 
