@@ -14,6 +14,11 @@
 - flexible media(images...) (use vw, % units). 
 - use media queries to address breakpoints.
 
+- *follow mobile first approach* i.e Design for
+ the mobile first, and then for the tablet and
+ Then for the laptop and then for the monitor 
+ Viewport.
+
 Tip: when developing website, try to design for all 
 Types of viewport monitor, laptop, tablet, smartphone
 And address their breakpoints using media queries.
