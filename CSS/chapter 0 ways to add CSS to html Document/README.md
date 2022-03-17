@@ -1,10 +1,6 @@
-<details>
-  <summary>
-    <b><em> Syntax of CSS Rule: </em></b>
-  </summary>
-  <p>
-    
-**important:** ***A CSS rule looks like this:-***
+
+## Syntax of a CSS rule
+***A CSS rule looks like this:-***
 ```CSS
 	  selector {
 	  	property: value; 
@@ -12,9 +8,9 @@
 	  }
 ```
 **note:** _the value here is different from ``<element attribute= “value”> </element>``_
-  </p>
-</details>
   
+<br/>
+
 <br/>
 
 ## Ways to add CSS to HTML doc:
