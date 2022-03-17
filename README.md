@@ -3,6 +3,10 @@
 
 ## FRONTEND
 ### [HTML](https://github.com/saif-mal1k/web-development/tree/main/HTML "click to open C notes") 
+- Basic HTML elements
+- structure of a web page
+- structuring index page
+
 ### [CSS](https://github.com/saif-mal1k/web-development/tree/main/CSS "click to open md syntax notes") 
 - core CSS
 - responsive design
