@@ -19,13 +19,9 @@
 
 ### [JavaScript Notes](https://github.com/saif-mal1k/web-development/tree/main/JavaScript "click to open JavaScript notes")
 
-<!--
+
 ## BACKEND
-### [DJANGO](https://github.com/saif-mal1k/web-development/tree/main/DJANGO "click to open C notes") 
 
-## operations
-
--->
 
 <br/>
 
