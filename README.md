@@ -32,5 +32,20 @@
 <!-- add image here -->
 
 
+<br/>
+
+<Br/>
+
+## Correct way to learn web-developement
+- learn html
+- learn CSS
+- learn js
+- clone a few websites using only above 3 language and no framework you may use Vscode.
+- develop a few websites by seeing ui/ux designs.
+- learn bootstrap, develop 5 fully functional websites as fast as possible.
+- learn a frontend framework such as React.
+- learn a backend framework such as Node.
+- learn express.
+
 
 
