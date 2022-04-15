@@ -1,5 +1,34 @@
 # types of selector:
-## ``“simple selector”``
+- ???
+	- <a href="#simple-selector"> Simple Selector </a>
+	- <a href="#multiple-selector"> Multiple Selector </a>
+	- <a href="#universal-selector"> Universal Selector / All Selector </a>
+	
+- ???
+	- <a href="#element-selector"> **Element Selector** </a>
+	- <a href="#class-selector"> **Class Selector** </a>
+	- <a href="#id-selector"> **Id Selector** </a>
+	
+- ???
+	- <a href="#Attribute-Selector"> **``Attribute Selector``** </a>
+	- <a href="#Pseudo-Elements-Selector"> **``Pseudo-Elements Selector``** </a>
+	- <a href="#Pseudo-class-selectors"> **``Pseudo-Class Selectors``** </a>
+		
+- <a href="#Combinator-Selectors">Combinator Selectors</a>
+	- <a href="#Combinator-Selectors"> ***Descendant Combinator*** </a>
+	- <a href="#Combinator-Selectors"> ***Child Combinator (>)*** </a>
+	- <a href="#Combinator-Selectors"> ***Adjacent Sibling Combinator (+)*** </a>	
+	- <a href="#Combinator-Selectors"> ***General Sibling Combinator (~)*** </a>	
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+---
+## <a name="simple-selector"></a> ``“simple selector”``
 - “simple selector selects elements based on <b>name / id / class</b> ” 
 
 ***remember: A CSS rule looks like this:***
@@ -10,7 +39,7 @@
 
 <br/>
 
-## ``“Multiple selector”``
+## <a name="multiple-selector"></a> ``“Multiple selector”``
 ***The CSS rule for addressing multiple HTML elements looks like this:***
 ```css
   selector1, selector2, selectorN {property: value;}
@@ -21,7 +50,7 @@
 
 <br/>
 
-## ``“Universal selector”  All Selector``
+## <a name="universal-selector"></a> ``“Universal selector”  All Selector``
 - The all (or universal) selector simply addresses the whole content of the HTML document and therefore also includes the <body></body> element. 
 
 ***The CSS rule for styling the whole content of a website looks like this:***
@@ -44,7 +73,7 @@
 ## Element Selector  
 ***The CSS rule for addressing certain HTML elements looks like this:***
 ```css
-  tag {property: value;}
+  	tag {property: value;}
 ```
 ```css
 	p {text-align: center;}			//This is the CSS rule to center all paragraphs.
@@ -52,7 +81,7 @@
 
 <br/>
 
-## Classes  “class selector”
+## <a name="class-selector"></a> Classes  “class selector”
 ***The CSS rule for addressing multiple elements with same class attribute is:***
 ```
   .class-name {property: value;…}		// CSS rule to style any elements that use this class
@@ -113,13 +142,13 @@
 
 <br/>
 
-## IDs	“ id selector ”
+## <a name="id-selector"></a> IDs	“ id selector ”
 ***Addressing an ID in CSS is simply done by using a hashtag (#) in front of the id name.***
 ```css
   #id-name { ... }
 ```
 
-**Tip: 💡**  _``/* IDs are very useful, especially if you have single HTML elements which must be styled in a different way. */``_
+**Tip: 💡**  <em><b>``/* IDs are very useful, especially if you have single HTML elements which must be styled in a different way. */``</b></em>
 
 **note:** 
 - IDs are similar to classes. 
@@ -147,5 +176,202 @@
 
 <br/>
 
+<br/>
+
+<br/>
+
+---
+## <a name="Attribute-Selector"></a> Attribute selectors 
+***The [attribute] selector is used to select elements with a specified attribute.***
+
+***syntax:***
+```css
+	element[attribute] {property: value;…}		      // element with this attrib any value
+```
+**Note: ``📝``** <b><em>``The [attribute="value"] selector is used to select elements with a specified attribute and value.``</em></b>
+```css
+	element[attribute= “value”] {property: value;…}	      // element with this attrib and this value
+```
+
+***example:***
+```css
+	a[href= “www.example.com ” ]{
+		property: value;
+	}
+```
+
+### All CSS Attribute selectors:
+<b>
+
+| Selector    |	Example | Example description |
+|-------------|---------|---------------------|
+| ``[attribute]`` | ``[target]``| Selects all elements with a target attribute|
+| ``[attribute=value]`` | ``[target=_blank]`` | Selects all elements with ``target="_blank"`` |
+| ``[attribute~=value]`` | ``[title~=flower]``	| Selects all elements with a ``title`` attribute containing the word ``"flower"`` |
+| ``[attribute\|=value]`` | ``[lang\|=en]``	| Selects all elements with a ``lang`` attribute value ``starting`` with ``"en"`` |
+| ``[attribute^=value]`` | ``a[href^="https"]``	| Selects every <a> element whose ``href`` attribute value ``begins`` with ``"https"`` |
+| ``[attribute$=value]`` | ``a[href$=".pdf"]``	| Selects every <a> element whose ``href`` attribute value ``ends`` with ``".pdf"`` |
+| ``[attribute*=value]`` | ``a[href*="w3schools"``]	| Selects every <a> element whose ``href`` attribute value ``contains`` the ``substring`` ``"w3schools"`` |
+ 
+</b>	
+
+<br/>
+	
+## <a name="Pseudo-Elements-Selector"></a> Pseudo-elements selectors 
+_A CSS pseudo-element is used to <b>``style specified parts of an element.``</b>_
+	
+***For example, it can be used to:***
+- Style the first letter, or line, of an element
+- Insert content before, or after, the content of an element
+
+***syntax:***
+```css	
+	selector::pseudo-element {
+	  property: value;
+	}	
+```	
+	
+###  All CSS Pseudo Elements:
+<b>
+	
+|Selector |	Example |	Example description |
+|---------|-------------|---------------------------|
+| ``::after`` | ``p::after``	| Insert something after the content of each <p> element. |
+| ``::before`` | ``p::before``	| Insert something before the content of each <p> element. |
+| ``::first-letter`` | ``p::first-letter``	| Selects the first letter of each <p> element. |
+| ``::first-line`` | ``p::first-line``	| Selects the first line of each <p> element. |
+| ``::marker`` | ``::marker``	| Selects the markers of list items. |
+| ``::selection`` | ``p::selection``	| Selects the portion of an element that is selected by a user. |
+
+</b>	
+	
+<br/>
+
+## <a name="Pseudo-class-selectors"></a> Pseudo-class selectors  <b><em>``important and amazing``</em></b>
+_A pseudo-class is used to <b>``define a special state of an element.``</b>_
+
+***For example, it can be used to:***
+- Style an element when a user mouses over it.
+- Style visited and unvisited links differently.
+- Style an element when it gets focus.
+
+***syntax:***
+```css
+	selector:pseudo-class {
+	  property: value;
+	}
+```
+
+### All Important CSS Pseudo Classes:
+<b>	
+	
+| Selector	| Example	| Example description | 
+|---------------|---------------|---------------------|
+| ``:active`` | ``a:active`` |	Selects the active link |
+| ``:hover`` | ``a:hover`` |	Selects links on mouse over |
+| ``:link`` | ``a:link`` |	Selects all unvisited links |
+| ``:visited`` | ``a:visited`` |	Selects all visited links |
+| ``:target`` | ``#news:target`` |	Selects the current active #news element (clicked on a URL containing that anchor name) |
+| ``:checked`` | ``input:checked`` |	Selects every checked <input> element |
+| ``:disabled`` | ``input:disabled`` |	Selects every disabled <input> element |
+| ``:enabled`` | ``input:enabled`` |	Selects every enabled <input> element |
+| ``:focus`` | ``input:focus`` |	Selects the <input> element that has focus |
+| ``:in-range`` | ``input:in-range`` |	Selects <input> elements with a value within a specified range |
+| ``:out-of-range`` | ``input:out-of-range`` |	Selects <input> elements with a value outside a specified range |
+| ``:valid`` | ``input:valid`` |	Selects all <input> elements with a valid value |
+| ``:invalid`` | ``input:invalid`` |	Selects all <input> elements with an invalid value |
+| ``:optional`` | ``input:optional`` |	Selects <input> elements with no "required" attribute |
+| ``:required`` | ``input:required`` |	Selects <input> elements with a "required" attribute specified |
+| ``:root`` | ``root`` |	Selects the document's root element |
+
+</b>
+	
+***tip: 💡*** _use curser property inside hover. ``ex: cursor: pointer;`` and enjoy the result._
+	
+<br/>
+
+<br/>
+
+<br/>
+
+---
+	
+# <a name="Combinator-Selectors"> Combinator selectors 
+Combinator Selector select elements based on a specified relationship between them.
+
+> ***"A combinator is something that explains the relationship between the selectors."***
+
+A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+
+***There are four different combinators in CSS:***
+- descendant selector (space) 
+- child selector (>)
+- adjacent sibling selector (+)
+- general sibling selector (~)
+
+<br/>
+	
+> **Note: 💡** ``div{...}`` selects all div elements. ``div {...}`` selects all elements that are descendents of div,  ``div p{...}`` selects all ``<p>`` elements that are descendents of ``div``. 
+
+<br/>	
+	
+<b>
+	
+| Selector	| Example	| Example description| 
+|---------------|---------------|--------------------|
+| ``element element {…}`` | ``div p {…}``	| ``Selects all <p> elements that are descendants of <div> elements.`` |
+| ``element>element {…}`` | ``div > p {…}``	| ``Selects all <p> elements that are child of <div> elements.`` |
+| ``element+element {…}`` | ``div + p {…}``	| ``Selects the first <p> element that are placed immediately after <div> elements.`` |
+| ``element1~element2 {…}`` | ``p ~ ul {…}``	| ``Selects every <ul> element that are preceded by a <p> element.`` |
+
+</b>
+	
+<br/>	
+	
+### Descendant Combinator
+The descendant selector matches all elements that are descendants of a specified element.
+The following example selects all ``<p>`` elements inside ``<div>`` elements: 
+```css
+	div p {
+	  background-color: yellow;
+	}
+```
+
+<br/>	
+	
+### Child Combinator (>)
+The child selector selects all elements that are the children of a specified element.
+The following example selects all ``<p>`` elements that are children of a ``<div>`` element:
+```css
+	div > p {
+	  background-color: yellow;
+	}
+```
+
+<br/>	
+	
+### Adjacent Sibling Combinator (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+The following example selects the first ``<p>`` element that are placed immediately after ``<div>`` elements:
+```css
+	div + p {
+	  background-color: yellow;
+	}
+```
+	
+<br/>
+	
+### General Sibling Combinator (~)
+The general sibling selector selects all elements that are next siblings of a specified element.
+The following example selects all ``<p>`` elements that are next siblings of ``<div>`` elements: 
+```css
+	div ~ p {
+	  background-color: yellow;
+	}
+```
 
 
+
+	
+	
