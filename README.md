@@ -29,8 +29,17 @@
 <br/>
 
 ## Folder Structure of a Web-development Project
-<!-- add image here -->
 
+```js
+PROJECT_ROOT
+|----- Pages        # page files
+|      '--- api     # serverless functions
+|----- Styles       # StyleSheets
+|----- Script       # Scripts
+|----- media        # contains all important media
+|----- public       # Static Assets
+
+```
 
 <br/>
 
@@ -40,7 +49,7 @@
 - learn html
 - learn CSS
 - learn js
-- clone a few websites using only above 3 language and no framework you may use Vscode.
+- clone a few websites using only above 3 language and no framework you may use Vscode as code editor.
 - develop a few websites by seeing ui/ux designs.
 - learn bootstrap, develop 5 fully functional websites as fast as possible.
 - learn a frontend framework such as React.
