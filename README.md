@@ -7,7 +7,7 @@
     
 - BASICS & Syntax
     - [introduction](/HTML/README.md)
-    - [chapter 1 Html Heading and Text formatting](/chapter%201%20Html%20Heading%20and%20Text%20formatting"/README.md)
+    - [chapter 1 Html Heading and Text formatting](/"chapter%201%20Html%20Heading%20and%20Text%20formatting"/README.md)
     - [chapter 2 anchor tag](/"chapter%202%20anchor%20tag"/README.md)
     - [chapter 3 frame and iframe](/"chapter%203%20frame%20and%20iframe"/README.md)
     - [chapter 4 adding images and videos](/"chapter%204%20adding%20images%20and%20videos"/README.md)
