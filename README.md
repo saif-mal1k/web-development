@@ -2,16 +2,21 @@
 
 
 ## FRONTEND
-### [HTML](/HTML/README.md "click to open HTML notes") 
-- [introduction](/HTML/README.md)
-- [chapter 1 Html Heading and Text formatting](/chapter%201%20Html%20Heading%20and%20Text%20formatting"/README.md)
-- [chapter 2 anchor tag](/chapter 2 anchor tag/README.md)
-- [chapter 3 frame and iframe](/chapter 3 frame and iframe/README.md)
-- [chapter 4 adding images and videos](/chapter 4 adding images and videos/README.md)
-- [chapter 5 list element](/chapter 5 list element/README.md)
-- [chapter 6 table element](/chapter 6 table element/README.md)
+### [HTML](/HTML/README.md "click to open HTML notes")
+<b>
+    
+- BASICS & Syntax
+    - [introduction](/HTML/README.md)
+    - [chapter 1 Html Heading and Text formatting](/chapter%201%20Html%20Heading%20and%20Text%20formatting"/README.md)
+    - [chapter 2 anchor tag](/chapter%202%20anchor%20tag/README.md)
+    - [chapter 3 frame and iframe](/chapter%203%20frame%20and%20iframe/README.md)
+    - [chapter 4 adding images and videos](/chapter%204%20adding%20images%20and%20videos/README.md)
+    - [chapter 5 list element](/chapter%205%20list%20element/README.md)
+    - [chapter 6 table element](/chapter%206%20table%20element/README.md)
 - structure of a web page
 - structuring index page
+    
+</b>
 
 ### [CSS](/CSS "click to open CSS notes") 
 - core CSS
