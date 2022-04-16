@@ -6,7 +6,7 @@
 <b>
     
 - BASICS & Syntax
-    - [introduction](/HTML/README.md)
+    - <a href="/HTML/README.md">introduction</a>
     - <a href="/HTML/chapter 1 Html Heading and Text formatting/README.md">chapter 1 Html Heading and Text formatting</a>
     - <a href="/HTML/chapter 2 anchor tag/README.md">chapter 2 anchor tag</a>
     - <a href="/HTML/chapter 3 frame and iframe/README.md">chapter 3 frame and iframe</a>
