@@ -77,7 +77,7 @@
 </table>
   
 
-  ***note:*** <b>```_&nbsp;```</b> adds space that won’t break in any screen size._
+  ***note:*** <b>_``&nbsp;`` adds space that won’t break in any screen size._</b>
 <br/>_“ when line fill with words the next word goes to next line, in case we want some words to always be together or in same line we use <b>```&nbsp```</b> for space ”_  
 </p>
 </details>
@@ -117,7 +117,7 @@ _elements are defined using tags._
 <tr>
 <td width=450> 
 
-<img src="https://user-images.githubusercontent.com/63545175/152875163-ffbb5fdd-5aed-4463-8324-b037c5910c53.png" width="420px">
+<a href="#"><img src="https://user-images.githubusercontent.com/63545175/152875163-ffbb5fdd-5aed-4463-8324-b037c5910c53.png" width="420px"></a>
 </td>
 <td>
 
