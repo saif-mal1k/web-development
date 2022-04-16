@@ -6,13 +6,14 @@
 <b>
     
 - BASICS & Syntax
-    - <a href="/HTML/README.md">introduction</a>
-    - <a href="/HTML/chapter 1 Html Heading and Text formatting/README.md">chapter 1 Html Heading and Text formatting</a>
-    - <a href="/HTML/chapter 2 anchor tag/README.md">chapter 2 anchor tag</a>
-    - <a href="/HTML/chapter 3 frame and iframe/README.md">chapter 3 frame and iframe</a>
-    - <a href="/HTML/chapter 4 adding images and videos/README.md">chapter 4 adding images and videos</a>
-    - <a href="/HTML/chapter 5 list element/README.md">chapter 5 list element</a>
-    - <a href="/HTML/chapter 6 table element/README.md">chapter 6 table element</a>
+    
+    - <a href="/HTML/README.md"> introduction </a>
+    - <a href="/HTML/chapter 1 Html Heading and Text formatting/README.md"> chapter 1 Html Heading and Text formatting </a>
+    - <a href="/HTML/chapter 2 anchor tag/README.md"> chapter 2 anchor tag </a>
+    - <a href="/HTML/chapter 3 frame and iframe/README.md"> chapter 3 frame and iframe </a>
+    - <a href="/HTML/chapter 4 adding images and videos/README.md"> chapter 4 adding images and videos </a>
+    - <a href="/HTML/chapter 5 list element/README.md"> chapter 5 list element </a>
+    - <a href="/HTML/chapter 6 table element/README.md"> chapter 6 table element </a>
 - structure of a web page
 - structuring index page
     
