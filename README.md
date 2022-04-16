@@ -2,11 +2,11 @@
 
 
 ## FRONTEND
+
 ### [HTML](/HTML/README.md "click to open HTML notes")
 <b>
     
-- BASICS & Syntax
-    
+- BASICS & Syntax  
     - <a href="/HTML/README.md"> introduction </a>
     - <a href="/HTML/chapter 1 Html Heading and Text formatting/README.md"> chapter 1 Html Heading and Text formatting </a>
     - <a href="/HTML/chapter 2 anchor tag/README.md"> chapter 2 anchor tag </a>
