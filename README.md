@@ -2,12 +2,12 @@
 
 
 ## FRONTEND
-### [HTML](https://github.com/saif-mal1k/web-development/tree/main/HTML "click to open C notes") 
+### [HTML](https://github.com/saif-mal1k/web-development/tree/main/HTML "click to open HTML notes") 
 - Basic HTML elements
 - structure of a web page
 - structuring index page
 
-### [CSS](https://github.com/saif-mal1k/web-development/tree/main/CSS "click to open md syntax notes") 
+### [CSS](https://github.com/saif-mal1k/web-development/tree/main/CSS "click to open CSS notes") 
 - core CSS
 - responsive design
     - viewport and units of measurement
