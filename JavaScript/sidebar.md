@@ -20,5 +20,6 @@
 
 - **Links**
 - [![Github](../assets/img/github.svg)@saif-mal1k](https://github.com/saif-mal1k/)
-- [![LinkedIn](../assets/img/linkedin.svg)@saifmalik](http://twitter.com/isaifmalik)
-- [![Twitter](../assets/img/twitter.svg)@isaifmalik](http://linkedin.com/in/saifmalik)
+- [![LinkedIn](assets/img/linkedin.svg)@saifmalik](http://linkedin.com/in/saifmalik)
+- [![Twitter](assets/img/twitter.svg)@isaifmalik](http://twitter.com/isaifmalik)
+
