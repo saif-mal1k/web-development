@@ -144,8 +144,18 @@
 
 ## Nested Lists
 <b><em>💡 tip:</em></b> we can nest list inside another list, so nesting is possible.
-<br><b><em>example:</em></b>
+
 <table>
+<tr>
+<td>
+
+<b>example:</b>
+</td>
+<td>
+  
+<b>output:</b>
+</td>
+</tr>  
 <tr>
 <td width="300">
 
