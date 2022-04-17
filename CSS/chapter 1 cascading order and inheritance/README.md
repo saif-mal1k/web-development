@@ -8,9 +8,9 @@ Most of them can be solved by considering the rules of cascading order and inher
 <br/>
 
 ## CASCADING ORDER &nbsp;&nbsp;&nbsp; “cascading means flowing down”
-HTML documents are loaded and read sequentially from top to bottom, so it is important where a style attribute is declared. 
-<br/>CSS rules written further below in a file will be read and interpreted later than the ones at the top. 
-<br/>This applies for one CSS file as well as for the whole HTML document incorporating many styles. 
+- HTML documents are loaded and read sequentially from top to bottom, so it is important where a style attribute is declared. 
+- CSS rules written further below in a file will be read and interpreted later than the ones at the top. 
+- This applies for one CSS file as well as for the whole HTML document incorporating many styles. 
 
 <br/>
 
@@ -58,21 +58,17 @@ the last rules being interpreted will result in final style .
 
 <br/>
 
-<details>
-<summary>
-💡 <b><em> tip: </em></b>
-</summary>
-<p>
- 
-- When using all three variants of CSS (e.g. on big websites) you usually reference the external styles first, then apply an internal CSS to the HTML file (e.g. a subsite), and then sometimes use inline CSS for quick tests.
- 
+
+> 💡 <b>tip:</b> When using all three variants of CSS (e.g. on big websites) you usually reference the external styles first, then apply an internal CSS to the HTML file (e.g. a subsite), and then sometimes use inline CSS for quick tests.
+
+
 ***For this scenario the cascading order would be:	“cascading means flowing down”***
+
 1.	The browsers default is applied first (= the user settings).
 2.	Then the external styles are loaded.
 3.	Then the internal style is added.
 4.	And finally the inline style is applied.
-</p>
-</details>
+
 
 <br/>
  
@@ -90,18 +86,13 @@ In case of nested elements inside HTML,
 
 <b><em> example: </em></b>
 <div align="center">
-<a href="#"><img width="850" src="../images/inheritance-css.png" alt="example of inheritance"></a>
+<a href="#"><img width="850" src="https://raw.githubusercontent.com/saif-mal1k/web-development/main/CSS/images/inheritance-css.png" alt="example of inheritance"></a>
 </div>
  
-**note:** Here, the color property as well as the font-size property are inherited automatically, whereas the border property is not inherited.
+<b>note:</b> Here, the color property as well as the font-size property are inherited automatically, whereas the border property is not inherited.
 
-<details>
-<summary>
- 💡 <b><em> tip: </b></em>
-</summary>
-<p>
 
-In many cases you have to find out yourself what properties are inherited and which not. But as a rule of thumb, most text- and font-related properties are inherited and everything size- and positioning-related is not. 
+> 💡 <b>tip:</b> In many cases you have to find out yourself what properties are inherited and which not. But as a rule of thumb, most text- and font-related properties are inherited and everything size- and positioning-related is not. 
 <br/>You can take a look at <a href="https://www.w3.org/TR/CSS21/propidx.html" title="W3 school"> _this_ </a> slightly outdated list of properties and their inheritance status. 
 </p>
 </details>
@@ -151,7 +142,7 @@ _There are four categories which define the specificity level of a selector:_
  
 ### ***examples*** :
 <div align="center">
- <a href="#"><img src="../images/specificity examples.png" alt="examples" width="650"></a>
+ <a href="#"><img src="https://raw.githubusercontent.com/saif-mal1k/web-development/main/CSS/images/specificity%20examples.png" alt="examples" width="650"></a>
 </div>
 
 <br/>
@@ -163,7 +154,7 @@ _There are four categories which define the specificity level of a selector:_
 <table align="center">
 <tr>
 <td>
-<a href="#"><img src="../images/important keyword in css rule.png" alt="example" width="900"></a>
+<a href="#"><img src="https://raw.githubusercontent.com/saif-mal1k/web-development/main/CSS/images/important%20keyword%20in%20css%20rule.png" alt="example" width="900"></a>
 </td>
 </tr>
 </table>
@@ -184,20 +175,17 @@ _There are four categories which define the specificity level of a selector:_
 <tr>
 <td>
  
-**Inside CSS**
+<b>Inside CSS</b>
 </td>
 <td>
  
-**Inside HTML Body**
-</td>
-<td>
- 
-**Output**
+<b>Inside HTML Body</b>
 </td>
 </tr>
 <tr>
 <td>
- 
+
+
 ```css
  div p {
    color: red;
@@ -209,7 +197,8 @@ _There are four categories which define the specificity level of a selector:_
 ```
 </td>
 <td>
- 
+
+
 ```html
  <div>
         <p>Paragraph inside a division.
@@ -219,33 +208,35 @@ _There are four categories which define the specificity level of a selector:_
  </p>
 ```
 </td>
-<td>
+</tr>
+<tr>
+<td colspan="2">
  
-<a href="#"><img src="../images/nesting css selectors example 1.png" alt="nesting css selectors example 1.png"></a>
+<b>Output: </b>
+
+ 
+<a href="#"><img src="https://raw.githubusercontent.com/saif-mal1k/web-development/main/CSS/images/nesting%20css%20selectors%20example%201.png" alt="nesting css selectors example 1.png"></a>
 </td>
 </tr>
 </table>
 
-the **asterisk (*)**. When used as child selector, It will address all elements inside the parent selector. This will also happen when the asterisk is followed by another child selector.
+the <b>asterisk (*)</b>. When used as child selector, It will address all elements inside the parent selector. This will also happen when the asterisk is followed by another child selector.
 
 <table>
 <tr>
 <td>
  
-**Inside CSS**
+<b>Inside CSS</b>
 </td>
 <td>
  
-**Inside HTML Body**
-</td>
-<td>
- 
-**Output**
+<b>Inside HTML Body</b>
 </td>
 </tr>
 <tr>
 <td>
- 
+
+
 ```css
  section {
    background-color: lawngreen;
@@ -259,7 +250,8 @@ the **asterisk (*)**. When used as child selector, It will address all elements 
 ```
 </td>
 <td>
- 
+
+
 ```html
  <section>
         <div>
@@ -273,9 +265,13 @@ the **asterisk (*)**. When used as child selector, It will address all elements 
  <span>Commercial</span>
 ```
 </td>
-<td>
+</tr>
+<tr>
+<td colspan="2">
  
-<a href="#"><img src="../images/nesting css selectors example 2.png" alt="nesting css selectors example 2.png"></a>
+<b>Output: </b>
+
+<a href="#"><img src="https://raw.githubusercontent.com/saif-mal1k/web-development/main/CSS/images/nesting%20css%20selectors%20example%202.png" alt="nesting css selectors example 2.png"></a>
 </td>
 </tr>
 </table>
@@ -285,7 +281,8 @@ the **asterisk (*)**. When used as child selector, It will address all elements 
 <details>
  <summary><b><em> note: If it comes to nesting of classes you have to be careful with the blank space.  </em></b></summary>
 <p>
- 
+
+
 **``div .my-class``** has a space and selects all elements with the class “my-class” that are descendants of division element.
 <br/>Whereas an <b>ex: ``div.my-class``</b> has no space between element and class selector and therefore addresses all division elements having the class “my-class”. 
 <br/>**note:** _these selectors with no space are also called **“Elements with class selector”**._
@@ -300,4 +297,7 @@ the **asterisk (*)**. When used as child selector, It will address all elements 
 📝 **important note:** ``#id div{ }`` “doesn’t mean element with this id and div inside this id”, “it means div elements inside the element with this id” same as ***parent-selector child-selector { }*** “means these child elements inside this parent element”.
 
 ***tip:*** **now it must be easier to understand that #id.class{ } “without space” is more specific than #id .class{ } “with space” .**
+
+> 💡 Note 📝 &nbsp; &nbsp; ``div{...}`` selects all div elements. ``div {...}`` selects all elements that are descendents of div, ``div p{...}`` selects all ``<p>`` elements that are descendents of ``<div>`` elements .
+
 
