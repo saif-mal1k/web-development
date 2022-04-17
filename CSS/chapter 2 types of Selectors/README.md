@@ -101,15 +101,20 @@
 <tbody>
 <tr>
 <td width="271">
-<p><strong>Inside CSS</strong></p>
+
+
+Inside CSS
 </td>
 <td width="407">
-<p><strong>Inside HTML body</strong></p>
+
+
+Inside HTML body
 </td>
 </tr>
 <tr>
 <td>
-  
+
+
 ```css
 .class-center{text-align: center;}
 
@@ -119,6 +124,7 @@
 ```
 </td>
 <td>
+
 
 ```html  
 <h1 class="class-center">Welcome to mysite</h1>
@@ -133,7 +139,8 @@
 <tr>
 <td colspan="2">
 <p><strong>Output:</strong></p>
-  
+
+
 ![image](https://user-images.githubusercontent.com/63545175/163440233-19c06ac0-c6f3-46f1-8c81-a4ee71265d58.png)  
 </td>
 </tr>
