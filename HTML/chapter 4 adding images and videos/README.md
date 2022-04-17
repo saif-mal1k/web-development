@@ -5,7 +5,7 @@
 <figcaption>  fig:1.21  <figcaption>
 </figure>
 ```
-***note:***
+<b><em>note:</b></em>
 image element can have two attributes width and height its recommended to adjust only one of two. 
 <br/>more important always specify width or height to stop layout breaking due to image not loading.
 
