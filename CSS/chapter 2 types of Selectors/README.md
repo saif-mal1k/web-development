@@ -210,21 +210,61 @@ Inside HTML body
 ### All CSS Attribute selectors:
 <b>
 
-| Selector    |	Example | Example description |
-|-------------|---------|---------------------|
-| ``[attribute]`` | ``[target]``| Selects all elements with a target attribute|
-| ``[attribute=value]`` | ``[target=_blank]`` | Selects all elements with ``target="_blank"`` |
-| ``[attribute~=value]`` | ``[title~=flower]``	| Selects all elements with a ``title`` attribute containing the word ``"flower"`` |
-| ``[attribute\|=value]`` | ``[lang\|=en]``	| Selects all elements with a ``lang`` attribute value ``starting`` with ``"en"`` |
-| ``[attribute^=value]`` | ``a[href^="https"]``	| Selects every <a> element whose ``href`` attribute value ``begins`` with ``"https"`` |
-| ``[attribute$=value]`` | ``a[href$=".pdf"]``	| Selects every <a> element whose ``href`` attribute value ``ends`` with ``".pdf"`` |
-| ``[attribute*=value]`` | ``a[href*="w3schools"``]	| Selects every <a> element whose ``href`` attribute value ``contains`` the ``substring`` ``"w3schools"`` |
+<table>
+<thead>
+<tr>
+<th>Selector</th>
+<th>Example</th>
+<th>Example description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[attribute]</code></td>
+<td><code>[target]</code></td>
+<td>Selects all elements with a target attribute</td>
+</tr>
+<tr>
+<td><code>[attribute=value]</code></td>
+<td><code>[target=_blank]</code></td>
+<td>Selects all elements with <code>target=&quot;_blank&quot;</code></td>
+</tr>
+<tr>
+<td><code>[attribute~=value]</code></td>
+<td><code>[title~=flower]</code></td>
+<td>Selects all elements with a <code>title</code> attribute containing the word <code>&quot;flower&quot;</code></td>
+</tr>
+<tr>
+<td><code>[attribute|=value]</code></td>
+<td><code>[lang|=en]</code></td>
+<td>Selects all elements with a <code>lang</code> attribute value <code>starting</code> with <code>&quot;en&quot;</code></td>
+</tr>
+<tr>
+<td><code>[attribute^=value]</code></td>
+<td><code>a[href^=&quot;https&quot;]</code></td>
+<td>Selects every <a> element whose <code>href</code> attribute value <code>begins</code> with <code>&quot;https&quot;</code></td>
+</tr>
+<tr>
+<td><code>[attribute$=value]</code></td>
+<td><code>a[href$=&quot;.pdf&quot;]</code></td>
+<td>Selects every <a> element whose <code>href</code> attribute value <code>ends</code> with <code>&quot;.pdf&quot;</code></td>
+</tr>
+<tr>
+<td><code>[attribute*=value]</code></td>
+<td><code>a[href*=&quot;w3schools&quot;</code>]</td>
+<td>Selects every <a> element whose <code>href</code> attribute value <code>contains</code> the <code>substring</code> <code>&quot;w3schools&quot;</code></td>
+</tr>
+</tbody>
+</table>
+
  
 </b>	
 
 <br/>
-	
-## <a name="Pseudo-Elements-Selector"></a> Pseudo-elements selectors 
+
+
+## <a name="Pseudo-Elements-Selector"></a>Pseudo-elements selectors
+
 _A CSS pseudo-element is used to <b>``style specified parts of an element.``</b>_
 	
 ***For example, it can be used to:***
@@ -239,8 +279,10 @@ _A CSS pseudo-element is used to <b>``style specified parts of an element.``</b>
 ```	
 	
 ###  All CSS Pseudo Elements:
+
 <b>
-	
+
+
 |Selector |	Example |	Example description |
 |---------|-------------|---------------------------|
 | ``::after`` | ``p::after``	| Insert something after the content of each <p> element. |
@@ -270,8 +312,10 @@ _A pseudo-class is used to <b>``define a special state of an element.``</b>_
 ```
 
 ### All Important CSS Pseudo Classes:
+
 <b>	
-	
+
+
 | Selector	| Example	| Example description | 
 |---------------|---------------|---------------------|
 | ``:active`` | ``a:active`` |	Selects the active link |
@@ -279,16 +323,16 @@ _A pseudo-class is used to <b>``define a special state of an element.``</b>_
 | ``:link`` | ``a:link`` |	Selects all unvisited links |
 | ``:visited`` | ``a:visited`` |	Selects all visited links |
 | ``:target`` | ``#news:target`` |	Selects the current active #news element (clicked on a URL containing that anchor name) |
-| ``:checked`` | ``input:checked`` |	Selects every checked <input> element |
-| ``:disabled`` | ``input:disabled`` |	Selects every disabled <input> element |
-| ``:enabled`` | ``input:enabled`` |	Selects every enabled <input> element |
-| ``:focus`` | ``input:focus`` |	Selects the <input> element that has focus |
-| ``:in-range`` | ``input:in-range`` |	Selects <input> elements with a value within a specified range |
-| ``:out-of-range`` | ``input:out-of-range`` |	Selects <input> elements with a value outside a specified range |
-| ``:valid`` | ``input:valid`` |	Selects all <input> elements with a valid value |
-| ``:invalid`` | ``input:invalid`` |	Selects all <input> elements with an invalid value |
-| ``:optional`` | ``input:optional`` |	Selects <input> elements with no "required" attribute |
-| ``:required`` | ``input:required`` |	Selects <input> elements with a "required" attribute specified |
+| ``:checked`` | ``input:checked`` |	Selects every checked ``<input>`` element |
+| ``:disabled`` | ``input:disabled`` |	Selects every disabled ``<input>`` element |
+| ``:enabled`` | ``input:enabled`` |	Selects every enabled ``<input>`` element |
+| ``:focus`` | ``input:focus`` |	Selects the ``<input>`` element that has focus |
+| ``:in-range`` | ``input:in-range`` |	Selects ``<input>`` elements with a value within a specified range |
+| ``:out-of-range`` | ``input:out-of-range`` |	Selects ``<input>`` elements with a value outside a specified range |
+| ``:valid`` | ``input:valid`` |	Selects all ``<input>`` elements with a valid value |
+| ``:invalid`` | ``input:invalid`` |	Selects all ``<input>`` elements with an invalid value |
+| ``:optional`` | ``input:optional`` |	Selects ``<input>`` elements with no "required" attribute |
+| ``:required`` | ``input:required`` |	Selects ``<input>`` elements with a "required" attribute specified |
 | ``:root`` | ``root`` |	Selects the document's root element |
 
 </b>
@@ -317,13 +361,15 @@ A CSS selector can contain more than one simple selector. Between the simple sel
 - general sibling selector (~)
 
 <br/>
+
 	
-> **Note: 💡** ``div{...}`` selects all div elements. ``div {...}`` selects all elements that are descendents of div,  ``div p{...}`` selects all ``<p>`` elements that are descendents of ``div``. 
+> <b>Note: 💡</b> ``div{...}`` selects all div elements. ``div {...}`` selects all elements that are descendents of div,  ``div p{...}`` selects all ``<p>`` elements that are descendents of ``div``. 
 
 <br/>	
 	
 <b>
-	
+
+
 | Selector	| Example	| Example description| 
 |---------------|---------------|--------------------|
 | ``element element {…}`` | ``div p {…}``	| ``Selects all <p> elements that are descendants of <div> elements.`` |
@@ -332,8 +378,10 @@ A CSS selector can contain more than one simple selector. Between the simple sel
 | ``element1~element2 {…}`` | ``p ~ ul {…}``	| ``Selects every <ul> element that are preceded by a <p> element.`` |
 
 </b>
-	
-<br/>	
+
+
+<br/>
+
 	
 ### Descendant Combinator
 The descendant selector matches all elements that are descendants of a specified element.
@@ -345,7 +393,8 @@ The following example selects all ``<p>`` elements inside ``<div>`` elements:
 ```
 
 <br/>	
-	
+
+
 ### Child Combinator (>)
 The child selector selects all elements that are the children of a specified element.
 The following example selects all ``<p>`` elements that are children of a ``<div>`` element:
@@ -356,7 +405,8 @@ The following example selects all ``<p>`` elements that are children of a ``<div
 ```
 
 <br/>	
-	
+
+
 ### Adjacent Sibling Combinator (+)
 The adjacent sibling selector is used to select an element that is directly after another specific element.
 Sibling elements must have the same parent element, and "adjacent" means "immediately following".
@@ -368,6 +418,7 @@ The following example selects the first ``<p>`` element that are placed immediat
 ```
 	
 <br/>
+
 	
 ### General Sibling Combinator (~)
 The general sibling selector selects all elements that are next siblings of a specified element.
