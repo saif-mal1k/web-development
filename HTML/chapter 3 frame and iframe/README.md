@@ -17,7 +17,7 @@
 <b>tip:</b> The ``<iframe>`` tag specifies an inline frame.
 <br/>An inline frame is used to embed another document within the current HTML document.
 <br/>iframe is Primarily used to include resources from other domains or subdomains but can be used to include content from the same domain as well. 
-<br/>The <iframe>'s strength is that the embedded code is 'live' i.e. dynamic and can communicate with the parent document.
+<br/>The ``<iframe>``'s strength is that the embedded code is 'live' i.e. dynamic and can communicate with the parent document.
  
 <br/> 
  
