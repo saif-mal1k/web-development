@@ -7,11 +7,11 @@
 <tr>
 <td>
 
-**example:**
+<b>example:</b>
 </td>
 <td>
   
-**output:**
+<b>output:</b>
 </td>
 </tr>
 <tr>  
@@ -52,11 +52,11 @@
 <tr>
 <td width="300">
 
-**example:**
+<b>example:</b>
 </td>
 <td width="300">
   
-**output:**
+<b>output:</b>
 </td>
 </tr>
 <tr>  
@@ -100,11 +100,11 @@
 <tr>
 <td width="300">
 
-**example:**
+<b>example:</b>
 </td>
 <td width="300">
   
-**output:**
+<b>output:</b>
 </td>
 </tr>
 <tr>  
@@ -143,8 +143,8 @@
 
 
 ## Nested Lists
-***💡 tip:*** we can nest list inside another list, so nesting is possible.
-<br>***example:***
+<b><em>💡 tip:</em></b> we can nest list inside another list, so nesting is possible.
+<br><b><em>example:</em></b>
 <table>
 <tr>
 <td width="300">
