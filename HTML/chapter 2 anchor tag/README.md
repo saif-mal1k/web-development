@@ -1,7 +1,12 @@
 ## anchor tag:
 ```HTML
-<a href=“https://path”  target=“_blank” >	           <!- - attribute target =“_blank” makes it open in new tab. - ->
+<a href=“https://path”  target=“_blank” >	           
+	
+<!-- attribute target =“_blank” makes it open in new tab. -->
 ```
+
+<br/>
+
 ### values for the target attribute:
 <table>
   <tr>
@@ -18,24 +23,23 @@
   </tr>
 </table>
 
-**note:** frame element has attribute name= “ ” that allows us to name the frame. 
+<b>note: 💡</b> frame element has attribute name= “ ” that allows us to name the frame. 
 
+<br/>
 
 ###  title attribute:
-<table>
-<tr>
-<td> title = “text that will be displayed when hover over by mouse” </td>
-</tr>
-<tr>
-<td>
-  
+- <b>title = “text that will be displayed when hover over by mouse”</b>, title contains text that will be displayed when hover over by mouse. 
+
+<b><em>example:</em></b>
 ```HTML
   <a href="https://www.google.com" title="secret msg"> Hover Over </a>
 ```
-</td>
+
+<b><em> output: </em></b>
+<table>
 </tr>
 <tr>
-<td> <b> output: </b> 
+<td>  
 <br/> &nbsp; <a href="https://www.google.com" title="secret msg"> Hover Over </a> 
 </tr>
 </table>  
@@ -53,16 +57,17 @@
 <tr>
 <td width="300" align="center">
   
-**Moving into the folders** 
+<b>Moving into the folders</b> 
 </td>
 <td width="300" align="center">
   
-**Moving out of the folders**  
+<b>Moving out of the folders</b>  
 </td>
 </tr>
 <tr>
 <td>
-  
+	
+``/folderName``
 </td>
 <td>
 
@@ -72,21 +77,23 @@
 </tr>
 </table>
 
-**tip:** use attribute target = ``“_self”``  to make it open in same frame.
+<b>tip:</b> use attribute target = ``“_self”``  to make it open in same frame.
 
 <br/>
 
 ## External linking to other websites:
+
 ```html
 <a href=“https://link”  target=“_blank” > 	      
   
 <!-- don’t forget to include full link with https -->
 ```
-**tip:** use attribute target = ``“_blank”``  to make it open in new tab.
+<b>tip:</b> use attribute target = ``“_blank”``  to make it open in new tab.
 
 <br/>
   
 ## linking to the sections of a document or sections of same page:
+
 ```html
 <a href= “#section2”> goto section 2</a>		
 <section id= “section2”>
