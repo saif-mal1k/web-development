@@ -25,7 +25,7 @@
     
 </b>
 
-### [CSS](/CSS "click to open CSS notes") 
+### [CSS](/CSS/README.md "click to open CSS notes") 
 <b>
 
 - core CSS
@@ -43,7 +43,7 @@
     
 </b>
 
-### [JavaScript Notes](/JavaScript "click to open JavaScript notes")
+### [JavaScript Notes](/JavaScript/README.md "click to open JavaScript notes")
 
 
 
