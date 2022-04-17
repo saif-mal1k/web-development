@@ -4,7 +4,9 @@
 <br/>
 
 # text formatting :
-<a href="#"><img src=text_formatting.png width=850></a>
+<a href="#"><img src=https://user-images.githubusercontent.com/63545175/163706610-27bd6335-4ed1-4fef-a27b-a4ccfd62f257.png width=850></a>
+
+
 
 <br/>
 
