@@ -4,9 +4,9 @@
 
 <br/>
 
-- [HTML](HTML/README.md)
-- [CSS](CSS/README.md)
-- [JavaScript](JavaScript/README.md)
+- [📝 HTML Notes](HTML/README.md)
+- [📝 CSS Notes](CSS/README.md)
+- [📝 JavaScript Notes](JavaScript/README.md)
 
 
 <br/>

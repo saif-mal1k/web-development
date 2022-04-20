@@ -1,8 +1,8 @@
-- [JavaScript](/JavaScript/README.md)
-- [chapter 0 comments and escape sequences](/JavaScript/chapter%200%20comments%20%26%20escape%20sequences/README.md)
-- [chapter 1 How to add JavaScript to html Document](/JavaScript/chapter%201%20How%20to%20add%20js%20to%20html/README.md)
-- [chapter 2 Script Loading Strategies](/JavaScript/chapter%202%20Script%20loading%20Stratergies/README.md)
-- [chapter 3 input Output](/JavaScript/chapter%203%20Input%20Output/README.md)
+- [JavaScript Notes](/JavaScript/README.md)
+    - [chapter 0 comments and escape sequences](/JavaScript/chapter%200%20comments%20%26%20escape%20sequences/README.md)
+    - [chapter 1 How to add JavaScript to html Document](/JavaScript/chapter%201%20How%20to%20add%20js%20to%20html/README.md)
+    - [chapter 2 Script Loading Strategies](/JavaScript/chapter%202%20Script%20loading%20Stratergies/README.md)
+    - [chapter 3 input Output](/JavaScript/chapter%203%20Input%20Output/README.md)
 
 <br/>
 
