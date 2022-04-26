@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-<b>note: 💡</b> frame element has attribute name= “ ” that allows us to name the frame. 
+<b>note: 💡</b> frame element has attribute ``name= “ ”`` that allows us to name the frame. 
 
 <br/>
 
