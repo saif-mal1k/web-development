@@ -65,3 +65,5 @@ else {
 
 ## Note: 
 ***most of the time js will be used to modify and add html elements to the web page.***
+
+***we can get input and show output on web page as well. through 'DOM and Event'***
