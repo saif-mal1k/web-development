@@ -183,7 +183,7 @@ ex: 3, -12, or 10,000,000.
 <b>Octal and hexadecimal literals: </b>
 A hexadecimal literal begins with an optional minus sign, followed by “0x” or “0X,” followed by a sequence of digits from 0-9 or letters A-F. 
 ```
-ex: -0123 		  //octal
+ex: -0123 	//octal
     -0xCAFE911	// hexadecimal
 ```
 
