@@ -41,8 +41,10 @@ if (expression)
 else if (expression2)
 	{statements;}
 else{statements;}
-tip: don’t forget false && false evaluate to false.
 ```
+
+><b>tip: 💡</b> don’t forget <b>false && false</b> evaluate to <b>false</b>.
+
 
 <br/>
 
