@@ -97,15 +97,15 @@
 <br/>
 
 ***example:***
-<table width="678">
+<table>
 <tbody>
 <tr>
-<td width="271">
+<td>
 
 
 Inside CSS
 </td>
-<td width="407">
+<td>
 
 
 Inside HTML body
@@ -141,7 +141,8 @@ Inside HTML body
 <p><strong>Output:</strong></p>
 
 
-![image](https://user-images.githubusercontent.com/63545175/163440233-19c06ac0-c6f3-46f1-8c81-a4ee71265d58.png)  
+<img src="https://user-images.githubusercontent.com/63545175/163440233-19c06ac0-c6f3-46f1-8c81-a4ee71265d58.png">  
+	  
 </td>
 </tr>
 </tbody>
