@@ -52,6 +52,7 @@
 
 <br/>
 
+
 ## Internal linking to other pages in the same site:
 <table>
 <tr>
@@ -82,6 +83,7 @@
 
 <br/>
 
+
 ## External linking to other websites:
 
 ```html
@@ -92,7 +94,8 @@
 <b>tip:</b> use attribute target = ``“_blank”``  to make it open in new tab.
 
 <br/>
-  
+
+
 ## linking to the sections of a document or sections of same page:
 
 ```html
