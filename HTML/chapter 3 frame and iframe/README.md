@@ -10,6 +10,7 @@
 
 <br/>
 
+
 ## iframe:
 ```html
 <iframe src=”linktodata” frameborder=”0” width=”500” scrolling=“no”> <iframe>
@@ -20,6 +21,7 @@
 <br/>The ``<iframe>``'s strength is that the embedded code is 'live' i.e. dynamic and can communicate with the parent document.
  
 <br/> 
- 
+
+
 # frame vs iframe ?
  
