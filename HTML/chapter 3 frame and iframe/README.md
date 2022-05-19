@@ -4,7 +4,7 @@
 
 </div>
  
-<br/><b>note:</b> frame element has attribute ``name = “ ”`` that allows us to name the frame. 
+<br/><b>note:</b> frame element has attribute ``name = “ ” `` that allows us to name the frame.
 <br/><b>tip:</b> now see target attribute of anchor tag and you’ll understand the importance of frames.
 
 
