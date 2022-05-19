@@ -68,7 +68,7 @@
 <tr>
 <td>
 	
-``/folderName`` 
+``/folderName`` _used to go into a folder._
 	
 </td>
 <td>
@@ -81,6 +81,7 @@
 
 <b>tip:</b> use attribute target = ``“_self”``  to make it open in same frame.
 
+
 <br/>
 
 
@@ -91,7 +92,9 @@
   
 <!-- don’t forget to include full link with https -->
 ```
-<b>tip:</b> use attribute target = ``“_blank”``  to make it open in new tab.
+
+<b>tip:</b> use attribute target = ``“_blank”`` to make it open in new tab.
+
 
 <br/>
 
