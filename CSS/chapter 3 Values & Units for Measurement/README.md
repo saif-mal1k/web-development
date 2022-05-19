@@ -5,7 +5,8 @@ cascading and inheritance results in specified value that will be used for an el
 ### computed value 
 computed value is the specified value that is actually applied to an element after cascading order and inheritance is computed. 
 
-**Note:** _``In case of the font-size property, the paragraphs in the division inherit a font-size of 10px just like the <span>. But simultaneously, the lower CSS rule sets the font-size of all paragraphs to 300%, resulting in a computed value of 10 pixels x 300% = 30 pixels inside the division. The paragraph outside the division doesn’t inherit the division’s font size which results in a font size three times as big as the initial value set in your browser.``_
+
+> <b>Note:</b> _In case of the font-size property, the paragraphs in the division inherit a font-size of ``10px`` just like the ``<span>``. But simultaneously, the lower CSS rule sets the font-size of all paragraphs to ``300%``, resulting in a computed value of ``10 pixels x 300% = 30`` pixels inside the division. The paragraph outside the division doesn’t inherit the division’s font size which results in a font size three times as big as the initial value set in your browser._
 
 <br/>
 
