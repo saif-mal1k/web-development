@@ -3,10 +3,12 @@
 <details> 
   <summary><b> how to comment </b></summary>
 <p>
-    
+
+  
 ```HTML
   <!-- this is how to comment -->
 ```
+  
 </p>
 </details>
 
@@ -17,6 +19,7 @@
     <b> Escape Sequence in HTML </b>
   </summary>
 <p>
+
   
 <table>
 <tr>
@@ -94,6 +97,7 @@ HTML doc Structure
     </b>
   </summary>
 <p>
+
   
 ```HTML
 <!DOCTYPE html>                 <!-- tells that this is html document -->
