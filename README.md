@@ -84,4 +84,13 @@ PROJECT_ROOT
 - learn express.
 
 
+<br/>
 
+
+<br/>
+
+
+## important concepts
+### REST API
+### authentication
+### MVC
