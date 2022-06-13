@@ -133,7 +133,7 @@ delete myObject.property;	// deletes property from my object, return true if suc
 
 
 > **<b>imp note:</b> <br/>
-> when re-assigning an object to a new variable, and then changing that copy. since objects are passed by reference, the original object is changed as well.  
+> when re-assigning an object to a new variable, and then changing that copy. since <b><em>objects are passed by reference</em></b>, the original object is changed as well.  
 
 
 
