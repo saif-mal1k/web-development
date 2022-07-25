@@ -195,111 +195,25 @@
       // Your web app's Firebase configuration
       // For Firebase JS SDK v7.20.0 and later, measurementId is optional
       var firebaseConfig = {
-        apiKey: "",
-        authDomain: "",
-        databaseURL: "",
-        projectId: "",
-        storageBucket: "",
-        messagingSenderId: "",
-        appId: "",
-        measurementId: "",
+        apiKey: " ",
+        authDomain: " ",
+        databaseURL: " ",
+        projectId: " ",
+        storageBucket: " ",
+        messagingSenderId: " ",
+        appId: " ",
+        measurementId: " ",
       };
+
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
     </script>
   </head>
 
   <body>
-    <div id="wrapper">
-      <div id="login-box" class="align-center" style="display: block">
-        <button
-          type="submit"
-          class="login-with-google-btn"
-          onclick="google_login()"
-        >
-          Log in with Google
-        </button>
-      </div>
 
-      <div id="msg-box" style="display: none">
-        <div id="chatbox" style="margin-top: 20px !important">
-          <ul id="messages" style="list-style-type: none; padding: 10px"></ul>
-        </div>
-        <!--  
-        <form onsubmit="return sendMessage();">
-            <input name="usermsg" type="text" id="usermsg" size="63" placeholder="Text Message" />
-            <button id="button" class="button">Send</button>
-        </form> -->
-
-        <form onsubmit="return sendMessage();">
-          <input
-            type="text"
-            id="message"
-            class="usermsg"
-            size="63"
-            placeholder="Text Message"
-            autocomplete="off"
-          />
-          <input type="submit" class="send-msg-btn" value="SEND" />
-        </form>
-        <!-- <ul id="messages"></ul> -->
-      </div>
-    </div>
-  </body>
-  <script>
-    userName = "NULL";
-    // listen for incoming messages
-    firebase
-      .database()
-      .ref("messages")
-      .on("child_added", function (snapshot) {
-        var html = "";
-        // give each message a unique ID
-        html += "<li id='message-" + snapshot.key + "'>";
-
-        html +=
-          "<img style='margin-top:15px !important; width:30px !important; height:30px !important; border-radius:50% !important;' src=" +
-          snapshot.val().picture +
-          "></img>" +
-          "<h6>" +
-          snapshot.val().sender +
-          "</h6>  : <br/> <p style='margin-left:8px !important; background-color: #dcd6d6; border-radius: 0px 12px 12px 12px !important; padding:10px;'>" +
-          snapshot.val().message +
-          "</p>";
-        html += "</li>";
-        /*
-        // show delete button if message is sent me
-        if (snapshot.val().sender == userName) {
-          html +=
-            "<button data-id='" +
-            snapshot.key +
-            "' onclick='deleteMessage(this);'>";
-          html += "Delete";
-          html += "</button>";
-        };
-        */
-
-        document.getElementById("messages").innerHTML += html;
-      });
-    function deleteMessage(self) {
-      // get message ID
-      var messageId = self.getAttribute("data-id");
-
-      // delete message
-      firebase.database().ref("messages").child(messageId).remove();
-    }
-
-    // attach listener for delete message
-    firebase
-      .database()
-      .ref("messages")
-      .on("child_removed", function (snapshot) {
-        // remove message node
-        document.getElementById("message-" + snapshot.key).innerHTML =
-          "This message has been removed";
-      });
-
-    let userName;
+    <script>
+            let userName;
     let userPicture;
 
     const google_login = () => {
@@ -338,12 +252,110 @@
       return false;
     };
 
-    // auto scroll to bottom of chat box
-    window.setInterval(function () {
+    </script>
+    <div id="wrapper">
+      <div id="login-box" class="align-center" style="display: block">
+        <button
+          type="submit"
+          class="login-with-google-btn"
+          onclick="google_login()"
+        >
+          Log in with Google
+        </button>
+      </div>
+
+      <div id="msg-box" style="display: none">
+        <div id="chatbox" style="margin-top: 20px !important">
+          <ul id="messages" style="list-style-type: none; padding: 10px"></ul>
+        </div>
+        <!--  
+        <form onsubmit="return sendMessage();">
+            <input name="usermsg" type="text" id="usermsg" size="63" placeholder="Text Message" />
+            <button id="button" class="button">Send</button>
+        </form> -->
+
+        <form onsubmit="return sendMessage();">
+          <input
+            type="text"
+            id="message"
+            class="usermsg"
+            size="63"
+            placeholder="Text Message"
+            autocomplete="off"
+            onclick="scrollChat();"
+          />
+          <input type="submit" class="send-msg-btn" value="SEND" />
+        </form>
+        <!-- <ul id="messages"></ul> -->
+      </div>
+    </div>
+      <script>
+    userName = "NULL";
+    // listen for incoming messages
+    firebase
+      .database()
+      .ref("messages")
+      .on("child_added", function (snapshot) {
+        var html = "";
+        // give each message a unique ID
+        html += "<li id='message-" + snapshot.key + "'>";
+
+        html +=
+          "<img style='margin-top:15px !important; width:30px !important; height:30px !important; border-radius:50% !important;' src=" +
+          snapshot.val().picture +
+          "></img>" +
+          "<h6>" +
+          snapshot.val().sender +
+          "</h6>  : <br/> <p style='margin-left:8px !important; background-color: #dcd6d6; border-radius: 0px 12px 12px 12px !important; padding:10px;'>" +
+          snapshot.val().message +
+          "</p>";
+        html += "</li>";
+        /*
+        // show delete button if message is sent me
+        if (snapshot.val().sender == userName) {
+          html +=
+            "<button data-id='" +
+            snapshot.key +
+            "' onclick='deleteMessage(this);'>";
+          html += "Delete";
+          html += "</button>";
+        };
+        */
+
+        document.getElementById("messages").innerHTML += html;
+
+      // auto scroll to bottom of chat box when new text is added
       var elem = document.getElementById("chatbox");
       elem.scrollTop = elem.scrollHeight;
-    }, 10);
-  </script>
-</html>
 
+      });
+    function deleteMessage(self) {
+      // get message ID
+      var messageId = self.getAttribute("data-id");
+
+      // delete message
+      firebase.database().ref("messages").child(messageId).remove();
+    }
+
+    // attach listener for delete message
+    firebase
+      .database()
+      .ref("messages")
+      .on("child_removed", function (snapshot) {
+        // remove message node
+        document.getElementById("message-" + snapshot.key).innerHTML =
+          "This message has been removed";
+      });
+
+    // auto scroll to bottom of chat box
+    function scrollChat() {
+      var elem = document.getElementById("chatbox");
+      elem.scrollTop = elem.scrollHeight;
+    };
+
+  </script>
+
+
+  </body>
+</html>
 ```
