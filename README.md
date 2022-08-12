@@ -4,6 +4,11 @@
 ## FRONTEND
 
 ### [HTML](/HTML/README.md "click to open HTML notes")
+<details>
+<summary> Index: </summary>
+<p>
+
+
 <b>
 
 <ul>    
@@ -26,7 +31,20 @@
     
 </b>
 
+
+</p>
+
+</details>
+
+
 ### [CSS](/CSS/README.md "click to open CSS notes") 
+
+<details>
+<summary> Index: </summary>
+<p>
+
+
+
 <b>
 
 - core CSS
@@ -43,6 +61,11 @@
 - Sass
     
 </b>
+
+</p>
+
+</details>
+
 
 ### [JavaScript Notes](/JavaScript/README.md "click to open JavaScript notes")
 
