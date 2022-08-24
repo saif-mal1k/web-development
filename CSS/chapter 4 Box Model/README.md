@@ -25,6 +25,32 @@
 
 ---
 
+### Display property
+  - Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.
+  - ✅ Yes! block elements can contain inline elements
+  - ❌ No! inline elements can't contain block elements
+
+***using diplay property we can set its value to -***
+  - **inline** , does'nt allow to set width & height.
+  - **block** , allow to set width & height and padding & margin. also automatically add line-break after element.
+  - **inline-block** , allow everything block allow but does'nt automatically add line-break after element. 
+
+<br/>
+ 
+***want to Hide an Element? set***
+```css
+display:none; 
+```
+or 
+```css
+visibility:hidden;
+```
+<br/>
+
+<br/>
+
+---
+
 ### Width & Height property
 ***Before setting width and height properties for an element, it’s important to consider which parts of the box model are addressed with these properties-***
 
