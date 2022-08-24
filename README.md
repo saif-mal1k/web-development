@@ -3,11 +3,12 @@
 
 ## FRONTEND
 
-### [HTML](/HTML/README.md "click to open HTML notes")
 <details>
-<summary> Index: </summary>
+<summary> <h3>HTML Notes:</h3> </summary>
 <p>
 
+
+### [all HTML notes](/HTML/README.md "click to open HTML notes")
 
 <b>
 
@@ -34,16 +35,21 @@
 
 </p>
 
+
+<br/>
+
+
 </details>
 
 
-### [CSS](/CSS/README.md "click to open CSS notes") 
+
 
 <details>
-<summary> Index: </summary>
+<summary> <h3>CSS Notes:</h3> </summary>
 <p>
 
 
+### [all CSS notes](/CSS/README.md "click to open CSS notes") 
 
 <b>
 
@@ -64,10 +70,13 @@
 
 </p>
 
+<br/>
+
 </details>
 
-
 ### [JavaScript Notes](/JavaScript/README.md "click to open JavaScript notes")
+
+
 
 
 
@@ -99,13 +108,12 @@ PROJECT_ROOT
 - learn html
 - learn CSS
 - learn js
-- clone a few websites using only above 3 language and no framework you may use Vscode as code editor.
+- clone a few websites using only above 3 language and no framework. I used Vscode as code editor & Live Server Extension.
 - develop a few websites by seeing ui/ux designs.
 - learn bootstrap, develop 5 fully functional websites as fast as possible.
 - learn a frontend framework such as React.
 - learn a backend framework such as Node.
 - learn express.
-
 
 <br/>
 
@@ -114,11 +122,23 @@ PROJECT_ROOT
 
 
 ## important concepts
+### MVC
+### CRUD
 ### REST API
 ### authentication
-### MVC
 
 
+<br/>
+
+
+<br/>
+
+
+## more (great tools and platforms)
+#### git VCS & Github
+#### Firebase
+#### CI/CD jenkins
+#### Serverless functions
 
 
 
@@ -151,5 +171,8 @@ PROJECT_ROOT
 
 
 ---
+***references:***
 
 1. https://github.com/microsoft/Web-Dev-For-Beginners
+
+
