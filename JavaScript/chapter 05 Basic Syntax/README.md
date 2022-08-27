@@ -243,8 +243,25 @@ Constants are used when a specific, unchanging value is used various times durin
  const val = 2;	// ‘const’ means that the identifier can't be reassigned.
 ```
 
-> <b>note: 📝</b> const does allow to change the value in object. but not the object itself???
+> <b>note: 📝</b> <br> a const must be initialised at the time of declaration otherwise it throws error at runtime. <br/>
+<details>
+  <summary><b>const does allow to change the value in object. but not the object itself</b></summary>
+<p>
 
+
+*Object reference is protected. The following is NOT allowed.*
+```js
+const obj = { a: 3 };
+obj = { b: 5 } // not allowed  
+```  
+
+*Object value is not protected. The following IS allowed:*
+```js
+const obj = { a: 3 };
+obj.a = 5;  // allowed
+```
+</p>
+</details>
 
 <table>
 <tr>
