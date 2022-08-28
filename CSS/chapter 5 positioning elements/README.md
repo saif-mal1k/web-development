@@ -117,6 +117,29 @@ visibility:hidden;
 
 ---
 
+## positioning elements by floating
+
+### float	(left, right)
+It specifies whether the box should float left or right. float property makes an element rise out of document flow.	
+
+### clear	(left, right, both, none)
+The clear property is used to avoid elements after the floating elements which flow around it. “to avoid certain elements from flowing around floating elements”
+
+note: when you float elements the browser takes them out of the regular document flow.
+
+  
+  
+
+
+
+<br/>
+
+<br/>
+
+---
+
+
+
 
 
 
