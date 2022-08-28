@@ -87,13 +87,30 @@ visibility:hidden;
 </details>
 
 
+
+### ``fixed`` positioning
+- ***fixed positioning works relative to the browser window.*** i.e, ***if you resize the browser window it moves with it.***
+- element is moved out of the normal document flow.
+
+
+
+### ``sticky`` positioning???
+- ????
+
+
+
 <br/>
 
 <br/>
 
 ---
+  
+## Z-INDEX
+ - controlls the stacking order of the elements.
+ - https://youtu.be/UO8ed-JB4So?t=1002 ?????
+  
 
-
+  
   
   
   
