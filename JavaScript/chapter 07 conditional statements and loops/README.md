@@ -86,6 +86,7 @@ switch (expression){
   
 ## Loops (for loop, while loop, for Each loop):
 - always make sure you have all 3 start , stop, step coditions.
+
 <b>while:</b>
 ```js
 while (expression){
@@ -121,26 +122,24 @@ for (initialization; condition; updation;){
 - condition statement defines the condition for executing the code block.
 - updation statement is executed (every time) after the code block has been executed.
 
-
-### for/in 	- loops through the properties of an object
-```js  
-for (key in object) {		// each can 	be key or value
-    statements;
-}
-```
-  
-  
 ### for/of 		- loops through the values of an iterable object
 ```js  
 for (each of object) {
         statements;
 }
 ```
-  
+
+### for/in 	- loops through the properties of an object
+```js  
+for (key in object) {		// each can be key or value
+    statements;
+}
+```  
+
 <br/>
   
   
-<b> example: </b>
+<b> example of for/of & for/in: </b>
     
 <table>  
 <tr>
@@ -156,6 +155,40 @@ for (each of object) {
 </td>  
 </tr> 
 </table>  
+
+<br/>
+  
+### forEach 		- loops through each value in an array
+```js
+const array1 = ['a', 'b', 'c'];
+
+array1.forEach(element => console.log(element));
+```
+
+<details>
+<summary> <b><em>ways to use for each</em></b> </summary>
+<p>
+
+```js  
+// Arrow function
+forEach((element) => { /* … */ })
+forEach((element, index) => { /* … */ })
+forEach((element, index, array) => { /* … */ })
+
+// Callback function
+forEach(callbackFn)
+forEach(callbackFn, thisArg)
+
+// Inline callback function
+forEach(function(element) { /* … */ })
+forEach(function(element, index) { /* … */ })
+forEach(function(element, index, array){ /* … */ })
+forEach(function(element, index, array) { /* … */ }, thisArg)
+```
+</p>
+</details>
+
+
   
   
   
