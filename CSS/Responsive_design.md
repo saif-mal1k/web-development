@@ -15,7 +15,7 @@
 - use media queries to address breakpoints.
 
 - *follow mobile first approach* i.e **Design** for
- the mobile first, and then for the tablet and
+ the mobile first, and then for the tablet,
  Then for the laptop and then for the monitor 
  Viewport.
 
