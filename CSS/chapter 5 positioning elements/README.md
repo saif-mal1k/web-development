@@ -107,9 +107,47 @@ visibility:hidden;
   
 ## Z-INDEX
  - controlls the stacking order of the elements.
- - https://youtu.be/UO8ed-JB4So?t=1002 ?????
-  
+ - ``z-index: 0;`` means that the element will be in normal document flow.
+ - ``z-index: 1;`` means that the element will be above the elements in normal document flow.
+ - ``z-index: 2;`` means that the elements will be above the elements with ``z-index: 1;``.
+ - and soon. 
 
+<details>
+  <summary> <b><em>example:</em></b> </summary>
+<p>
+
+<table>
+<tr>
+<td colspan="2"> 
+
+<image src="https://user-images.githubusercontent.com/63545175/187840635-caad94f6-091f-44c6-97d6-4015c5797994.png" width="520px">
+</td>
+</tr>
+<tr>
+<td> 
+
+<image src="https://user-images.githubusercontent.com/63545175/187838482-5ec44c6d-681f-4d53-8f5b-9eddf680613d.png" width="420px">
+</td>
+<td>
+  
+<image src="https://user-images.githubusercontent.com/63545175/187839583-bba48975-354a-4aff-b307-68604d66a340.png" width="360px">
+</td>  
+</tr>
+<tr>
+<td> 
+
+<image src="https://user-images.githubusercontent.com/63545175/187839736-a5d83273-31cc-4aff-944f-f2d8f38ff097.png" width="420px">
+<td>
+  
+<image src="https://user-images.githubusercontent.com/63545175/187839856-a3e04784-31aa-4947-8521-c3d3622292b2.png" width="360px">
+</td>  
+</tr>
+</table>  
+  
+</p>
+</details>
+  
+  
 
 <br/>
 
@@ -147,4 +185,28 @@ note: when you float elements the browser takes them out of the regular document
 
 
 
+  
+<br/>
+  
+<br/>
+
+  
+<br/>
+  
+<br/>
+
+    
+<br/>
+  
+<br/>
+
+---
+  
+---
+
+***references:***  
+  
+1. https://youtu.be/UO8ed-JB4So?t=1002 ?????
+
+  
   
