@@ -94,8 +94,8 @@ visibility:hidden;
 
 
 
-### ``sticky`` positioning???
-- ????
+### ``sticky`` positioning
+- static positioning works just like static positioning. when the offset limits are achieved then it just sticks there.
 
 
 
@@ -137,6 +137,10 @@ note: when you float elements the browser takes them out of the regular document
 <br/>
 
 ---
+
+## centering div and centering text ???
+
+***reference:*** https://blog.hubspot.com/website/center-div-css#center-div-css ???
 
 
 
