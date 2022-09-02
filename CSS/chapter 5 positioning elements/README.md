@@ -92,6 +92,124 @@ visibility:hidden;
 - ***fixed positioning works relative to the browser window.*** i.e, ***if you resize the browser window it moves with it.***
 - element is moved out of the normal document flow.
 
+<details>
+  <summary> <b><em>example:</em></b> </summary>
+<p>
+  
+***image:***
+<image src="https://user-images.githubusercontent.com/63545175/188061355-7593d209-b703-442e-afaf-3317df9ea9e6.png" width="480px">
+
+<image src="https://user-images.githubusercontent.com/63545175/188061631-a561e1ab-7d5a-4967-88b7-ccb20c83b005.png" width="720px">
+
+
+***code:***
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruntwood.co</title>
+    <style>
+        
+        #main{
+            margin-top: 50px;
+            width: calc(100vw - 70px) ;
+            height: calc(100vh - 140px);
+            
+            text-align: center;
+            font-size: 100px;
+        }
+
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        background: #00fff742;
+
+        }
+        #above-the-fold{
+            width: calc(100vw - 80px) ;
+
+            height: calc(100vh - 50px);
+            padding: 15px;
+            margin: 5px;
+        }
+
+        header{
+            float:left;
+        }
+        nav{
+            float: right;
+        }
+        nav span{
+            
+            font-weight: 500;
+            display: inline-block;
+                        margin: 10px;
+
+            
+        }
+
+        span{
+            width: 80px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        span:hover{
+            font-weight: bolder;
+        }
+        footer{
+            background-color: rgba(186, 157, 147, 0.651);
+            height: 100px;
+            width: calc(100vw - 60px) ;
+                        padding: 15px;
+
+ 
+        }
+
+        .contactChat{
+            position: fixed;
+            bottom: 35px;
+            right: 35px;;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 30px;
+            background-color: black;
+            border-style: solid;
+        }
+
+        .contactChat:hover{
+            background-color: #00fff7;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="above-the-fold">
+
+        <!-- welcome page -->
+
+    </div>
+
+    <div class="contactChat">
+        💬
+    </div>
+
+    <footer>
+        <div>
+            <!-- contact info and ... -->
+        </div>
+    </footer>
+</body>
+</html>
+```
+  
+</p>
+</details>  
 
 
 ### ``sticky`` positioning
