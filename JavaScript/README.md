@@ -5,11 +5,13 @@
 
 
 <details>
-	<summary> <b><em> what is JavaScript ??????????? </em></b> </summary>
+	<summary> <b><em> what is JavaScript ? </em></b> </summary>
 <p>
 
 <b><em>Answer:</em></b>
-	
+
+- an interpreted scripting language i.e directly embedded into HTML page to add interactivity to the page.
+- Everyone can use JavaScript without purchasing a license
 	
 </p>
 </details>
@@ -17,11 +19,21 @@
 <br/>
 
 <details>
-	<summary> <b><em> where is JavaScript Used ???? </em></b> </summary>
+	<summary> <b><em> where is JavaScript Used ? </em></b> </summary>
 <p>
 
 <b><em>Answer:</em></b>
+
+- ***web development***
+	- JavaScript gives HTML designers a programming tool.
+	- JavaScript can dynamically create, edit and delete HTML elements.
+	- JavaScript can react to events.
+	- JavaScript can be used to validate data.
+	- JavaScript can be used to create, read cookies.
 	
+- ***Salesforce development***
+
+	- JavaScript is used in creating lwc components.
 	
 </p>
 </details>
