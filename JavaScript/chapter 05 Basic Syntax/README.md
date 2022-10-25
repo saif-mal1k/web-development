@@ -321,9 +321,8 @@ we can use <b>var</b> keyword to declare and initialize variable of any type.
 <br/>
 
 <b>note:</b>
-note: 
 - <b>var variables</b> can be <b>redeclared</b> and also <b>redefined.</b>
-- <b>let variables</b> can’t be <b>redeclared</b> but can be <b>redefined.</b> 
+- <b>let variables</b> can’t be <b><s>redeclared</s></b> but can be <b>redefined.</b> 
 - <b>const</b> can’t be <b><s>redeclared</s></b> and can’t be <b><s>redefined</s>.</b>
 
 
