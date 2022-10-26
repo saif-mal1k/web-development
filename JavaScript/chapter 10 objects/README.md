@@ -87,7 +87,7 @@ function person(name, age, color) {
 #### Creating Objects
 Once you have an object constructor, you can use the <b>new</b> keyword to create new objects of the same type.
 ```js
-const myObject = new Person("Johny","22","Blue");
+const myObject = new person("Johny","22","Blue");
 ```
 
 
@@ -132,7 +132,7 @@ delete myObject.property;	// deletes property from my object, return true if suc
 ```
 
 
-> **<b>imp note:</b> <br/>
+> 💡<b>imp note:</b> <br/>
 > when re-assigning an object to a new variable, and then changing that copy. since <b><em>objects are passed by reference</em></b>, the original object is changed as well.  
 
 
