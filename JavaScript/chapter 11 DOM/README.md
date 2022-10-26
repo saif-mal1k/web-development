@@ -37,7 +37,7 @@ When you open any webpage in a browser, the HTML of the page is loaded and rende
 
 # DOM manipulation
 
-## Document Object:
+<b> Document Object: </b>
 all elements are treated as objects in js and the document object is the owner (or root) of all objects in your webpage. 
 it can be used to access all elements on the DOM. So, if you want to access objects in an HTML page, you always start with accessing the document object.  
 
@@ -49,6 +49,9 @@ document.body.innerHTML="some content for body";
 //innerHTML property can be used on almost all HTML elements to change its content.
 
 ```
+
+<br/>
+
 
 ## Selecting , Creating , Removing , Replacing Elements:
 
@@ -88,5 +91,19 @@ arr[1].innerHTML = "Hi";
   </script>
 </body>
 ```
+
+### some important methods:
+- ``element.parentNode`` returns the parent node of an element.
+- ``element.hasChildNodes`` returns true if an element has any child nodes, otherwise false.
+- ``element.childNodes`` returns an array of an element's child nodes.
+- ``element.firstChild`` returns the first child node of an element.
+- ``element.lastChild`` returns the last child node of an element.
+- ``element.nextSibling`` returns the next node at the same tree level.
+- ``element.previousSibling`` returns the previous node at the same tree level.
+
+
+
+
+
 
 
