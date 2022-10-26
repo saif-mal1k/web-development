@@ -41,12 +41,19 @@
 <br/>
 
 <details>
-	<summary> <b><em> How JavaScript Works ??????? </em></b> </summary>
+	<summary> <b><em> How JavaScript Works ? </em></b> </summary>
 <p>
 
 <b><em>Answer:</em></b>
 	
-	
+### In Browser
+A browser’s primary job is to act as a client for a web server. It requests resources over the Internet, using one of several protocols (usually HTTP/HTTPS). Once a server passes it some of those resources, the browser needs to do something with them. At a minimum HTML and CSS are rendered into a page. When a resource contains some JavaScript, the browser reaches over to the JavaScript runtime engine to parse, evaluate, and execute that code. 
+
+Likewise, while a script is executing it can also reach back to the browser to do things like modify the web page, interact with the local environment, or interact with other web resources.
+
+### In server
+
+
 </p>
 </details>
 
@@ -62,6 +69,21 @@
 </p>
 </details>
 
+<br/>
+
+<details>
+	<summary> <b><em> Javascript <code> API's</code> ? </em></b> </summary>
+<p>
+
+<b><em>Answer:</em></b>
+
+- Interact with the structure of the current page rendered in the browser (Document Object Model or ``DOM API``)
+- Perform asynchronous requests to the server without leaving the current page (``Fetch API``)
+- Interact with device features surfaced to the browser (geolocation, device orientation, client-side data storage & to cache the data locally)
+	
+	
+</p>
+</details>
 
 <br/>
 
