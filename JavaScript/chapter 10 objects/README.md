@@ -146,8 +146,33 @@ delete myObject.property;	// deletes property from my object, return true if suc
 <br/>
 
 
-# How to deep copy objects ??????????????	
-						------------------------------------------- ?
+# How to deep copy objects 	
+```js
+originalArrayy = ['h','e','l','l','o','w'];
+
+deepcopyArrayy = JSON.parse(JSON.stringify(originalArrayy))
+
+deepcopyArrayy.push('!')
+
+```
+
+<img src="https://user-images.githubusercontent.com/63545175/216605700-2bcdd92f-da6c-4ce2-8a62-a26ed86bc766.png" width="720px">
+
+
+<br/>
+
+```js
+originall = ['h','e','l','l','o','w'];
+
+deepcoppy = [...originall];
+
+deepcoppy.push('123');
+
+```
+
+<img src="https://user-images.githubusercontent.com/63545175/216605856-8a3b3a68-79fc-44c6-8e54-5ce0022d6628.png" width="720px">
+
+
 
 # what is a object() Keyword ??????????????	
 						------------------------------------------- ?
