@@ -108,6 +108,9 @@ PROJECT_ROOT
 - learn html
 - learn CSS
 - learn js
+- Build your own static website
+- Build your own responsive website
+- Build your own dynamic website
 - clone a few websites using only above 3 language and no framework. I used Vscode as code editor & Live Server Extension.
 - develop a few websites by seeing ui/ux designs.
 - learn bootstrap, develop 5 fully functional websites as fast as possible.
