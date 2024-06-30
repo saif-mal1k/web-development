@@ -178,5 +178,15 @@ PROJECT_ROOT
 ***references:***
 
 1. https://github.com/microsoft/Web-Dev-For-Beginners
-
+2. https://roadmap.sh/frontend
+   - https://roadmap.sh/javascript
+   - https://roadmap.sh/react
+4. https://roadmap.sh/backend
+   - https://roadmap.sh/system-design
+   - https://roadmap.sh/software-design-architecture
+   - https://roadmap.sh/software-architect
+   - https://roadmap.sh/nodejs
+   - https://roadmap.sh/java
+   - https://roadmap.sh/spring-boot
+5. https://roadmap.sh/devops
 
